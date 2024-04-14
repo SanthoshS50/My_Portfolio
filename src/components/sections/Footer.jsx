@@ -5,6 +5,8 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import PhoneIcon from "@mui/icons-material/Phone";
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -85,6 +87,14 @@ const Copyright = styled.p`
 `;
 
 const Footer = () => {
+
+  const yourWhatsAppNumber = "6385916880"; 
+  const handleWhatsAppClick = () => {
+    const defaultMessage = "Hi Santhosh! I came across your impressive portfolio and would love to discuss potential opportunities with you. Do you have a few minutes to chat on WhatsApp?";
+    const whatsappLink = `https://wa.me/${yourWhatsAppNumber}?text=${encodeURIComponent(defaultMessage)}`;
+    window.location.href = whatsappLink;
+  };
+
   return (
     <FooterContainer>
       <FooterWrapper>
@@ -99,6 +109,12 @@ const Footer = () => {
 
         </Nav>
         <SocialMediaIcons>
+          <SocialMediaIcon href={Bio.phone} target="display">
+            <PhoneIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href="#" target="display" onClick={handleWhatsAppClick}>
+            <WhatsAppIcon />
+          </SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display">
             <LinkedInIcon />
           </SocialMediaIcon>
