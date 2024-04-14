@@ -12,7 +12,7 @@ export const Bio = {
   linkedin: "https://www.linkedin.com/in/santhosh29092001/",
   youtube:"https://www.youtube.com/@wonderaquagarden",
   insta: "https://www.instagram.com/__.sweet._.sandy._.official.__/",
-  phone : "tel:+6385916880"
+  phone : "tel:+91 6385916880"
 };
 
 export const skills = [
