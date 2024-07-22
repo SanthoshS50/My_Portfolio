@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
+import { School } from "@mui/icons-material";
 
 const Top = styled.div`
   width: 100%;
@@ -50,15 +51,15 @@ const Date = styled.div`
     font-size: 10px;
   }
 `;
-const Grade = styled.div`
-  font-size: 14px;
-  font-weight: 500;
-  color: ${({ theme }) => theme.text_secondary + 99};
+const Degree = styled.div`
+  font-size: 18px;
+  font-weight: 600px;
+  color: ${({ theme }) => theme.text_primary + 99};
+
   @media only screen and (max-width: 768px) {
-    font-size: 12px;
+    font-size: 14px;
   }
 `;
-
 const Description = styled.div`
   width: 100%;
   font-size: 15px;
@@ -94,16 +95,16 @@ const ItemWrapper = styled.div`
   gap: 8px;
 `;
 
-const ExperienceCard = ({ experience }) => {
+const CertificationCourseCard = ({ certificationcourse }) => {
   return (
     <VerticalTimelineElement
       icon={
         <img
           width="100%"
           height="100%"
-          alt={experience.school}
+          alt={certificationcourse.role}
           style={{ borderRadius: "50%", objectFit: "cover" }}
-          src={experience.img}
+          src={certificationcourse.img}
         />
       }
       contentStyle={{
@@ -121,25 +122,26 @@ const ExperienceCard = ({ experience }) => {
       contentArrowStyle={{
         borderRight: "7px solid  rgba(255, 255, 255, 0.3)",
       }}
-      date={experience.date}
+      date={certificationcourse.date}
     >
       <Top>
-        <Image src={experience.img} />
+        <Image src={certificationcourse.img} />
         <Body>
-          <Role>{experience.role}</Role>
-          <Company>{experience.company}</Company>
-          <Date>{experience.date}</Date>
+          <Role>{certificationcourse.role}</Role>
+          <Company>{certificationcourse.company}</Company>
+          <Degree>{certificationcourse.degree}</Degree>
+          <Date>{certificationcourse.date}</Date>
         </Body>
       </Top>
       <Description>
-        {experience?.desc && <Span>{experience?.desc}</Span>}
-        {experience?.skills && (
+        {certificationcourse?.desc && <Span>{certificationcourse?.desc}</Span>}
+        {certificationcourse?.skills && (
           <>
             <br />
             <Skills>
               <b>Skills:</b>
               <ItemWrapper>
-                {experience?.skills?.map((skill, index) => (
+                {certificationcourse?.skills?.map((skill, index) => (
                   <Skill>• {skill}</Skill>
                 ))}
               </ItemWrapper>
@@ -151,4 +153,4 @@ const ExperienceCard = ({ experience }) => {
   );
 };
 
-export default ExperienceCard;
+export default CertificationCourseCard;

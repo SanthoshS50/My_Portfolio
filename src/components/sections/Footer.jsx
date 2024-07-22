@@ -103,10 +103,10 @@ const Footer = () => {
           <NavLink href="#About">About</NavLink>
           <NavLink href="#Education">Education</NavLink>
           <NavLink href="#Experience">Experience</NavLink>
+          <NavLink href="#CertificationCourse">Course</NavLink>
           <NavLink href="#Skills">Skills</NavLink>
           <NavLink href="#Projects">Projects</NavLink>
           <NavLink href="#Contact">Contact</NavLink>
-
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.phone} target="display">

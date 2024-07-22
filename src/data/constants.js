@@ -136,16 +136,19 @@ export const experiences = [
   }
 ];
 
-export const education = [
+export const certificationcourse = [
   {
     id: 0,
     img: "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_b2b52bf26a769b861fae19c5f65643cf/guvi.png",
-    school: "GUVI GEEK NETWORK PRIVATE LIMITED, IITM Research park, Tharamani, Chennai, Tamil Nadu 600 113",
+    role: "Full Stack Development",
     date: "Oct 2023 - Dec 2023",
     grade: " A+",
     desc: "During my time at GUVI GEEK NETWORK, I underwent comprehensive training as a MERN Stack Developer, focusing on mastering the MongoDB, Express.js, React.js, and Node.js technologies. Through a blend of theoretical learning and hands-on practical exercises, I acquired a solid understanding of both front-end and back-end development aspects.",
-    degree: "Full Stack Developer",
-  },
+    company: "GUVI GEEK NETWORK PRIVATE LIMITED, IITM Research park, Tharamani, Chennai, Tamil Nadu 600 113"
+  }
+]
+
+export const education = [
   {
     id: 1,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTTiwBdK1YkayfozMSKfPasT6uY9XUN63FZskvWnLwJA&s",

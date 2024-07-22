@@ -8,6 +8,7 @@ import StarCanvas from "./components/canvas/Stars";
 import { AnimatePresence } from "framer-motion";
 import Education from "./components/sections/Education";
 import Experience from "./components/sections/Experience";
+import CertificationCourse from "./components/sections/CertificationCourse"
 import Projects from "./components/sections/Projects";
 import Contact from "./components/sections/Contact";
 import Footer from "./components/sections/Footer";
@@ -51,6 +52,7 @@ function App() {
               <Wrapper>
                 <Education />
                 <Experience />
+                <CertificationCourse/>
                 <Skills />
               </Wrapper>
               <Projects openModal={openModal} setOpenModal={setOpenModal} />

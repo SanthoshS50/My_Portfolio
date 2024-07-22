@@ -53,7 +53,7 @@ const Date = styled.div`
 const Grade = styled.div`
   font-size: 14px;
   font-weight: 500;
-  color: ${({ theme }) => theme.text_secondary + 99};
+  color : ${({ theme }) => theme.text_secondary_bold + 99};
   @media only screen and (max-width: 768px) {
     font-size: 12px;
   }
@@ -109,8 +109,7 @@ const EducationCard = ({ education }) => {
         </Body>
       </Top>
       <Grade>
-        <b>Grade :</b>
-        {education.grade}
+        Grade : {education.grade}
       </Grade>
       <Description>
         <Span>{education.desc}</Span>
