@@ -254,6 +254,30 @@ export const projects = [
     category: "web app",
     github: "https://github.com/SanthoshS50/Techies_Blog",
     webapp: "https://techies-blog.onrender.com/"
+  },
+  {
+    id: 4,
+    title: "Chat App",
+    date: "July 2024",
+    description:
+      "The Chat App allows users to securely send and receive text messages with a fully responsive design and a scalable architecture, this application ensures a seamless user experience across devices. The backend is powered by Node.js and Express.js, with MongoDB handling data storage. Real-time communication is achieved through WebSockets using Socket.io, making the chat experience smooth and instant. This project showcases my ability to develop full-stack applications with a focus on performance and user experience. ",
+    image:
+      "https://github.com/SanthoshS50/Chat_App/raw/main/Readme_Images/Homepage.png",
+    tags: [
+      "React Js",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      "Redux",
+      "bcryptjs",
+      "dotenv",
+      "JWT",
+      "Tailwindcss",
+      "Socket.Io"
+    ],
+    category: "web app",
+    github: "https://github.com/SanthoshS50/Chat_App",
+    webapp: "https://chat-app-im1b.onrender.com/"
   }
 ];
 
