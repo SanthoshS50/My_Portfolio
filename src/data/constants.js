@@ -278,6 +278,30 @@ export const projects = [
     category: "web app",
     github: "https://github.com/SanthoshS50/Chat_App",
     webapp: "https://chat-app-im1b.onrender.com/"
+  },
+  {
+    id: 5,
+    title: "Job Portal",
+    date: "September 2024",
+    description:
+      "This is a comprehensive job portal built using the MERN stack, designed to streamline the job search and recruitment process for both job seekers and employers. For job seekers, the platform offers features such as job browsing, searching with filters based on location, job title, and category, and the ability to apply directly to postings. Users can manage their applications, view job details, and track the status of their submissions from their personalized dashboards. For employers, the portal allows companies to post job vacancies, review applicants, and manage the recruitment pipeline efficiently. Employers can view the profiles of applicants, track applications, and communicate with candidates directly through the platform. With user authentication, secure data handling, and a responsive UI, this job portal delivers a seamless and dynamic experience for all users involved in the hiring process.",
+    image:
+      "https://github.com/SanthoshS50/mern-jobportal/raw/main/Readme_Images/Homepage.png",
+    tags: [
+      "React Js",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      "Redux",
+      "bcryptjs",
+      "dotenv",
+      "JWT",
+      "Tailwindcss",
+      "Cloudinary"
+    ],
+    category: "web app",
+    github: "https://github.com/SanthoshS50/mern-jobportal",
+    webapp: "https://mern-jobportal-rgf3.onrender.com"
   }
 ];
 
