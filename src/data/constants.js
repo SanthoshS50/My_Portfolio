@@ -123,6 +123,16 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://media.licdn.com/dms/image/v2/C4E0BAQEYClaCJxdkBw/company-logo_200_200/company-logo_200_200/0/1630617277252/ajackus_logo?e=2147483647&v=beta&t=TNIF1LNy8Wy1kG3kdrdrA5mrtO8_1LQuB9jjm9vO2IQ",
+    role: "Associate Software Engineer ",
+    company: "Ajackus",
+    date: "November 2024 - Present",
+    desc: "",
+    skills: ["HTML","CSS","Javascript","ReactJS","NodeJS","ExpressJS","MongoDB","MySQL","Git","Python"],
+    doc: " ",
+  },
+  {
+    id: 1,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6ApOyY9hijQxrAh-SjpI4O2qehmyhE3ZDXNMb8u-NyA&s",
     role: "R&D Junior Engineer",
     company: "Elcompo Electronic Industries Private Limited",
