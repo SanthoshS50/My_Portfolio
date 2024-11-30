@@ -1,8 +1,8 @@
 export const Bio = {
   name: "Santhosh Srinivasan",
   roles: [
-    "Full Stack Developer",
-    "MERN Developer"
+    "Software Engineer [ASE]",
+    "Full Stack Developer"
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
@@ -127,7 +127,7 @@ export const experiences = [
     role: "Associate Software Engineer ",
     company: "Ajackus",
     date: "November 2024 - Present",
-    desc: "",
+    desc: "As a Associate Software Engineer at Ajackus, I specialize in building and customizing applications on the ServiceNow platform. My work includes designing workflows, developing custom solutions, integrating systems, and optimizing performance to meet business needs. I collaborate with teams to deliver scalable and efficient solutions while ensuring a seamless user experience.",
     skills: ["HTML","CSS","Javascript","ReactJS","NodeJS","ExpressJS","MongoDB","MySQL","Git","Python"],
     doc: " ",
   },

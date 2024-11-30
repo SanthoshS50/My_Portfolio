@@ -60,8 +60,8 @@ const Experience = () => {
             marginBottom: "40px",
           }}
         >
-        My background lies in Research and Development Engineering, but I'm currently aiming to transition into a Full Stack Developer role.
-        </Desc>
+       I am currently working as an Associate Software Engineer at Ajackus, specializing in building and customizing applications on the ServiceNow platform.
+       </Desc>
 
         <VerticalTimeline>
           {experiences.map((experience, index) => (
